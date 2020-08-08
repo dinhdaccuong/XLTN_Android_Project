@@ -1,0 +1,76 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\XuLyTiengNoi_Project\XLTN_Android_Project\AndroidManifest.xml:18:1-42:12
+INJECTED from D:\XuLyTiengNoi_Project\XLTN_Android_Project\AndroidManifest.xml:18:1-42:12
+MERGED from [org.tensorflow:tensorflow-android:1.13.1] C:\Users\Cuong\.gradle\caches\transforms-2\files-2.1\70758ecb8e90b119e9f201ef8a9a9682\tensorflow-android-1.13.1\AndroidManifest.xml:2:1-8:12
+INJECTED from D:\XuLyTiengNoi_Project\XLTN_Android_Project\AndroidManifest.xml:18:1-42:12
+	package
+		ADDED from D:\XuLyTiengNoi_Project\XLTN_Android_Project\AndroidManifest.xml:20:5-34
+		INJECTED from D:\XuLyTiengNoi_Project\XLTN_Android_Project\AndroidManifest.xml
+		INJECTED from D:\XuLyTiengNoi_Project\XLTN_Android_Project\AndroidManifest.xml
+	xmlns:tools
+		ADDED from D:\XuLyTiengNoi_Project\XLTN_Android_Project\AndroidManifest.xml:19:5-51
+	xmlns:android
+		ADDED from D:\XuLyTiengNoi_Project\XLTN_Android_Project\AndroidManifest.xml:18:11-69
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from D:\XuLyTiengNoi_Project\XLTN_Android_Project\AndroidManifest.xml:22:5-80
+	android:name
+		ADDED from D:\XuLyTiengNoi_Project\XLTN_Android_Project\AndroidManifest.xml:22:22-78
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from D:\XuLyTiengNoi_Project\XLTN_Android_Project\AndroidManifest.xml:23:5-71
+	android:name
+		ADDED from D:\XuLyTiengNoi_Project\XLTN_Android_Project\AndroidManifest.xml:23:22-68
+application
+ADDED from D:\XuLyTiengNoi_Project\XLTN_Android_Project\AndroidManifest.xml:25:5-40:19
+MERGED from [org.tensorflow:tensorflow-android:1.13.1] C:\Users\Cuong\.gradle\caches\transforms-2\files-2.1\70758ecb8e90b119e9f201ef8a9a9682\tensorflow-android-1.13.1\AndroidManifest.xml:5:5-6:19
+MERGED from [org.tensorflow:tensorflow-android:1.13.1] C:\Users\Cuong\.gradle\caches\transforms-2\files-2.1\70758ecb8e90b119e9f201ef8a9a9682\tensorflow-android-1.13.1\AndroidManifest.xml:5:5-6:19
+	android:label
+		ADDED from D:\XuLyTiengNoi_Project\XLTN_Android_Project\AndroidManifest.xml:26:9-41
+	android:icon
+		ADDED from D:\XuLyTiengNoi_Project\XLTN_Android_Project\AndroidManifest.xml:27:9-45
+	android:allowBackup
+		ADDED from D:\XuLyTiengNoi_Project\XLTN_Android_Project\AndroidManifest.xml:25:18-44
+	android:banner
+		ADDED from D:\XuLyTiengNoi_Project\XLTN_Android_Project\AndroidManifest.xml:29:9-47
+	android:theme
+		ADDED from D:\XuLyTiengNoi_Project\XLTN_Android_Project\AndroidManifest.xml:28:9-45
+activity#org.tensorflow.demo.SpeechActivity
+ADDED from D:\XuLyTiengNoi_Project\XLTN_Android_Project\AndroidManifest.xml:31:9-39:20
+	android:screenOrientation
+		ADDED from D:\XuLyTiengNoi_Project\XLTN_Android_Project\AndroidManifest.xml:32:13-49
+	android:label
+		ADDED from D:\XuLyTiengNoi_Project\XLTN_Android_Project\AndroidManifest.xml:33:13-57
+	android:name
+		ADDED from D:\XuLyTiengNoi_Project\XLTN_Android_Project\AndroidManifest.xml:31:19-68
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER+category:name:android.intent.category.LEANBACK_LAUNCHER
+ADDED from D:\XuLyTiengNoi_Project\XLTN_Android_Project\AndroidManifest.xml:34:13-38:29
+action#android.intent.action.MAIN
+ADDED from D:\XuLyTiengNoi_Project\XLTN_Android_Project\AndroidManifest.xml:35:17-69
+	android:name
+		ADDED from D:\XuLyTiengNoi_Project\XLTN_Android_Project\AndroidManifest.xml:35:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\XuLyTiengNoi_Project\XLTN_Android_Project\AndroidManifest.xml:36:17-77
+	android:name
+		ADDED from D:\XuLyTiengNoi_Project\XLTN_Android_Project\AndroidManifest.xml:36:27-74
+category#android.intent.category.LEANBACK_LAUNCHER
+ADDED from D:\XuLyTiengNoi_Project\XLTN_Android_Project\AndroidManifest.xml:37:17-86
+	android:name
+		ADDED from D:\XuLyTiengNoi_Project\XLTN_Android_Project\AndroidManifest.xml:37:27-83
+uses-sdk
+INJECTED from D:\XuLyTiengNoi_Project\XLTN_Android_Project\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\XuLyTiengNoi_Project\XLTN_Android_Project\AndroidManifest.xml
+INJECTED from D:\XuLyTiengNoi_Project\XLTN_Android_Project\AndroidManifest.xml
+INJECTED from D:\XuLyTiengNoi_Project\XLTN_Android_Project\AndroidManifest.xml
+INJECTED from D:\XuLyTiengNoi_Project\XLTN_Android_Project\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from D:\XuLyTiengNoi_Project\XLTN_Android_Project\AndroidManifest.xml
+		ADDED from D:\XuLyTiengNoi_Project\XLTN_Android_Project\AndroidManifest.xml
+		INJECTED from D:\XuLyTiengNoi_Project\XLTN_Android_Project\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\XuLyTiengNoi_Project\XLTN_Android_Project\AndroidManifest.xml
+		ADDED from D:\XuLyTiengNoi_Project\XLTN_Android_Project\AndroidManifest.xml
+		INJECTED from D:\XuLyTiengNoi_Project\XLTN_Android_Project\AndroidManifest.xml
+uses-permission#android.permission.READ_PHONE_STATE
+IMPLIED from D:\XuLyTiengNoi_Project\XLTN_Android_Project\AndroidManifest.xml:18:1-42:12 reason: tensorflow.contrib.android has a targetSdkVersion < 4
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+IMPLIED from D:\XuLyTiengNoi_Project\XLTN_Android_Project\AndroidManifest.xml:18:1-42:12 reason: tensorflow.contrib.android requested WRITE_EXTERNAL_STORAGE
