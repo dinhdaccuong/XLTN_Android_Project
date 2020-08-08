@@ -93,7 +93,7 @@ public class SpeechActivity extends Activity {
   private Thread recognitionThread;
   private final ReentrantLock recordingBufferLock = new ReentrantLock();
   private TensorFlowInferenceInterface inferenceInterface;
-  private List<String> labels = new ArrayList<String>();
+ private List<String> labels = new ArrayList<String>();
   private List<String> displayedLabels = new ArrayList<>();
   private RecognizeCommands recognizeCommands = null;
 
@@ -103,48 +103,21 @@ public class SpeechActivity extends Activity {
     super.onCreate(savedInstanceState);
     setContentView(R.layout.activity_speech);
 
-    // Button Quit
-    quitButton = (Button) findViewById(R.id.quit);
-    quitButton.setOnClickListener(
-        new View.OnClickListener() {
-          @Override
-          public void onClick(View view) {
-            moveTaskToBack(true);
-            android.os.Process.killProcess(android.os.Process.myPid());
-            System.exit(1);
-          }
-        });
-
-    // Label
-    labelsListView = (ListView) findViewById(R.id.list_view);
-
-    // Load the labels for the model, but only display those that don't start
-    // with an underscore.
-
-    String actualFilename = LABEL_FILENAME.split("file:///android_asset/")[1];  // Tach chuoi = conv_actions_lbels.txt
-    Log.i(LOG_TAG, "Reading labels from: " + actualFilename);
 
     // Doc file text de hien len labels list
+    String actualFilename = LABEL_FILENAME.split("file:///android_asset/")[1];  // Tach chuoi = conv_actions_lbels.txt
+
     BufferedReader br = null;
     try {
       br = new BufferedReader(new InputStreamReader(getAssets().open(actualFilename)));
       String line;
       while ((line = br.readLine()) != null) {
         labels.add(line);
-        if (line.charAt(0) != '_') {
-          displayedLabels.add(line.substring(0, 1).toUpperCase() + line.substring(1));
-        }
       }
       br.close();
     } catch (IOException e) {
       throw new RuntimeException("Problem reading label file!", e);
     }
-
-    // Build a list view based on these labels.
-    ArrayAdapter<String> arrayAdapter =
-        new ArrayAdapter<String>(this, R.layout.list_text_item, displayedLabels);
-    labelsListView.setAdapter(arrayAdapter);
-
     // Set up an object to smooth recognition results to increase accuracy.
     recognizeCommands =
         new RecognizeCommands(
@@ -159,9 +132,9 @@ public class SpeechActivity extends Activity {
     inferenceInterface = new TensorFlowInferenceInterface(getAssets(), MODEL_FILENAME);
 
     // Start the recording and recognition threads.
-    requestMicrophonePermission();
-    startRecording();
-    startRecognition();
+//    requestMicrophonePermission();
+//    startRecording();
+//    startRecognition();
   }
 // end onCreate
 
@@ -331,22 +304,22 @@ public class SpeechActivity extends Activity {
             @Override
             public void run() {
               // If we do have a new command, highlight the right list entry.
-              if (!result.foundCommand.startsWith("_") && result.isNewCommand) {
-                int labelIndex = -1;
-                for (int i = 0; i < labels.size(); ++i) {
-                  if (labels.get(i).equals(result.foundCommand)) {
-                    labelIndex = i;
-                  }
-                }
-                final View labelView = labelsListView.getChildAt(labelIndex - 2);
-
-                AnimatorSet colorAnimation =
-                    (AnimatorSet)
-                        AnimatorInflater.loadAnimator(
-                            SpeechActivity.this, R.animator.color_animation);
-                colorAnimation.setTarget(labelView);
-                colorAnimation.start();
-              }
+//              if (!result.foundCommand.startsWith("_") && result.isNewCommand) {
+//                int labelIndex = -1;
+//                for (int i = 0; i < labels.size(); ++i) {
+//                  if (labels.get(i).equals(result.foundCommand)) {
+//                    labelIndex = i;
+//                  }
+//                }
+//                final View labelView = labelsListView.getChildAt(labelIndex - 2);
+//
+//                AnimatorSet colorAnimation =
+//                    (AnimatorSet)
+//                        AnimatorInflater.loadAnimator(
+//                            SpeechActivity.this, R.animator.color_animation);
+//                colorAnimation.setTarget(labelView);
+//                colorAnimation.start();
+//              }
             }
           });
       try {

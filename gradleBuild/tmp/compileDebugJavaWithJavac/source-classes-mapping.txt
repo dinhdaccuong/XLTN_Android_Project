@@ -11,12 +11,8 @@ org/tensorflow/demo/RecognizeCommands.java
  org.tensorflow.demo.RecognizeCommands$ScoreForSorting
 org/tensorflow/demo/ResultsView.java
  org.tensorflow.demo.ResultsView
-org/tensorflow/demo/SpeechActivity.java
- org.tensorflow.demo.SpeechActivity
- org.tensorflow.demo.SpeechActivity$1
- org.tensorflow.demo.SpeechActivity$2
- org.tensorflow.demo.SpeechActivity$3
- org.tensorflow.demo.SpeechActivity$4
+org/tensorflow/demo/BuildConfig.java
+ org.tensorflow.demo.BuildConfig
 org/tensorflow/demo/tracking/MultiBoxTracker.java
  org.tensorflow.demo.tracking.MultiBoxTracker
  org.tensorflow.demo.tracking.MultiBoxTracker$1
@@ -48,5 +44,8 @@ org/tensorflow/demo/TensorFlowMultiBoxDetector.java
  org.tensorflow.demo.TensorFlowMultiBoxDetector$1
 org/tensorflow/demo/env/SplitTimer.java
  org.tensorflow.demo.env.SplitTimer
-org/tensorflow/demo/BuildConfig.java
- org.tensorflow.demo.BuildConfig
+org/tensorflow/demo/SpeechActivity.java
+ org.tensorflow.demo.SpeechActivity
+ org.tensorflow.demo.SpeechActivity$1
+ org.tensorflow.demo.SpeechActivity$2
+ org.tensorflow.demo.SpeechActivity$3
