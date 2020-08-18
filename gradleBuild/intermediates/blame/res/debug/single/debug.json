@@ -1,5 +1,9 @@
 [
     {
+        "merged": "D:\\XuLyTiengNoi_Project\\XLTN_Android_Project\\gradleBuild\\intermediates\\res\\merged\\debug\\drawable_layout_border.xml.flat",
+        "source": "D:\\XuLyTiengNoi_Project\\XLTN_Android_Project\\res\\drawable\\layout_border.xml"
+    },
+    {
         "merged": "D:\\XuLyTiengNoi_Project\\XLTN_Android_Project\\gradleBuild\\intermediates\\res\\merged\\debug\\animator_color_animation.xml.flat",
         "source": "D:\\XuLyTiengNoi_Project\\XLTN_Android_Project\\res\\animator\\color_animation.xml"
     },
