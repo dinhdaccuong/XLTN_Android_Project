@@ -1,11 +1,11 @@
 [
     {
-        "merged": "D:\\XuLyTiengNoi_Project\\XLTN_Android_Project\\gradleBuild\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_action_info.png.flat",
-        "source": "D:\\XuLyTiengNoi_Project\\XLTN_Android_Project\\res\\drawable-xxhdpi\\ic_action_info.png"
-    },
-    {
         "merged": "D:\\XuLyTiengNoi_Project\\XLTN_Android_Project\\gradleBuild\\intermediates\\res\\merged\\debug\\animator_color_animation.xml.flat",
         "source": "D:\\XuLyTiengNoi_Project\\XLTN_Android_Project\\res\\animator\\color_animation.xml"
+    },
+    {
+        "merged": "D:\\XuLyTiengNoi_Project\\XLTN_Android_Project\\gradleBuild\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_action_info.png.flat",
+        "source": "D:\\XuLyTiengNoi_Project\\XLTN_Android_Project\\res\\drawable-xxhdpi\\ic_action_info.png"
     },
     {
         "merged": "D:\\XuLyTiengNoi_Project\\XLTN_Android_Project\\gradleBuild\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_action_info.png.flat",

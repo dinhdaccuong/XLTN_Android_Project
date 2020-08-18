@@ -16,4 +16,6 @@
 -->
 <resources>
     <color name="control_background">#cc4285f4</color>
+    <color name="button_push">#CC0DFA05</color>
+    <color name="button_release">#CCFAE205</color>
 </resources>

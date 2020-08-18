@@ -2,6 +2,8 @@ org.tensorflow.demo
 animator color_animation
 attr metaButtonBarButtonStyle
 attr metaButtonBarStyle
+color button_push
+color button_release
 color control_background
 dimen horizontal_page_margin
 dimen margin_huge
@@ -14,9 +16,9 @@ drawable border
 drawable ic_action_info
 drawable ic_launcher
 drawable tile
+id buttonVoice
 id list_text_item
 id list_view
-id quit
 id textView
 layout activity_speech
 layout list_text_item

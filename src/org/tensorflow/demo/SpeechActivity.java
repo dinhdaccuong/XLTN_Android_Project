@@ -35,6 +35,7 @@ import android.animation.AnimatorInflater;
 import android.animation.AnimatorSet;
 import android.app.Activity;
 import android.content.pm.PackageManager;
+import android.graphics.Color;
 import android.media.AudioFormat;
 import android.media.AudioRecord;
 import android.media.MediaRecorder;
@@ -45,6 +46,8 @@ import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.ListView;
+import android.widget.Toast;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -80,7 +83,7 @@ public class SpeechActivity extends Activity {
 
   // UI elements.
   private static final int REQUEST_RECORD_AUDIO = 13;
-  private Button quitButton;
+  private Button buttonVoice;
   private ListView labelsListView;
   private static final String LOG_TAG = SpeechActivity.class.getSimpleName();
 
@@ -93,10 +96,12 @@ public class SpeechActivity extends Activity {
   private Thread recognitionThread;
   private final ReentrantLock recordingBufferLock = new ReentrantLock();
   private TensorFlowInferenceInterface inferenceInterface;
- private List<String> labels = new ArrayList<String>();
+  private List<String> labels = new ArrayList<String>();
   private List<String> displayedLabels = new ArrayList<>();
   private RecognizeCommands recognizeCommands = null;
 
+  private String log_tag = "cuong";
+  private boolean isRecogniting = false;
   @Override
   protected void onCreate(Bundle savedInstanceState) {
     // Set up the UI.
@@ -132,9 +137,28 @@ public class SpeechActivity extends Activity {
     inferenceInterface = new TensorFlowInferenceInterface(getAssets(), MODEL_FILENAME);
 
     // Start the recording and recognition threads.
-//    requestMicrophonePermission();
-//    startRecording();
-//    startRecognition();
+    requestMicrophonePermission();
+    // View
+    buttonVoice = findViewById(R.id.buttonVoice);
+    buttonVoice.setOnClickListener(new View.OnClickListener() {
+        @Override
+        public void onClick(View v) {
+            if(!isRecogniting)
+            {
+                isRecogniting = true;
+                buttonVoice.setBackgroundColor(getResources().getColor(R.color.button_push));
+                startRecording();
+                startRecognition();
+            }
+            else
+            {
+                isRecogniting = false;
+                buttonVoice.setBackgroundColor(getResources().getColor(R.color.button_release));
+                stopRecording();
+                stopRecognition();
+            }
+        }
+    });
   }
 // end onCreate
 
@@ -151,8 +175,9 @@ public class SpeechActivity extends Activity {
     if (requestCode == REQUEST_RECORD_AUDIO
         && grantResults.length > 0
         && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
-      startRecording();
-      startRecognition();
+      Log.d(log_tag, "onRequestPermissionsResult");
+      //startRecording();
+      //startRecognition();
     }
   }
 
@@ -182,10 +207,8 @@ public class SpeechActivity extends Activity {
 
   private void record() {
     android.os.Process.setThreadPriority(android.os.Process.THREAD_PRIORITY_AUDIO);
-
     // Estimate the buffer size we'll need for this device.
-    int bufferSize =
-        AudioRecord.getMinBufferSize(
+    int bufferSize = AudioRecord.getMinBufferSize(
             SAMPLE_RATE, AudioFormat.CHANNEL_IN_MONO, AudioFormat.ENCODING_PCM_16BIT);
     if (bufferSize == AudioRecord.ERROR || bufferSize == AudioRecord.ERROR_BAD_VALUE) {
       bufferSize = SAMPLE_RATE * 2;
@@ -304,22 +327,15 @@ public class SpeechActivity extends Activity {
             @Override
             public void run() {
               // If we do have a new command, highlight the right list entry.
-//              if (!result.foundCommand.startsWith("_") && result.isNewCommand) {
-//                int labelIndex = -1;
-//                for (int i = 0; i < labels.size(); ++i) {
-//                  if (labels.get(i).equals(result.foundCommand)) {
-//                    labelIndex = i;
-//                  }
-//                }
-//                final View labelView = labelsListView.getChildAt(labelIndex - 2);
-//
-//                AnimatorSet colorAnimation =
-//                    (AnimatorSet)
-//                        AnimatorInflater.loadAnimator(
-//                            SpeechActivity.this, R.animator.color_animation);
-//                colorAnimation.setTarget(labelView);
-//                colorAnimation.start();
-//              }
+              if (!result.foundCommand.startsWith("_") && result.isNewCommand) {
+                int labelIndex = -1;
+                for (int i = 0; i < labels.size(); ++i) {
+                  if (labels.get(i).equals(result.foundCommand)) {
+                    labelIndex = i;
+                  }
+                }
+                Toast.makeText(SpeechActivity.this, labels.get(labelIndex), Toast.LENGTH_SHORT).show();
+              }
             }
           });
       try {

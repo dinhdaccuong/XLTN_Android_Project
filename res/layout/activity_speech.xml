@@ -44,10 +44,12 @@
         />
 
     <Button
-        android:id="@+id/quit"
+        android:id="@+id/buttonVoice"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Quit"
+        android:background="#CCFAE205"
+
+        android:text="Voice"
         android:layout_gravity="bottom|center_horizontal"
         android:layout_marginBottom="10dp"
         />

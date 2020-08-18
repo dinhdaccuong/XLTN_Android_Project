@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <color name="button_push">#CC0DFA05</color>
+    <color name="button_release">#CCFAE205</color>
     <color name="control_background">#cc4285f4</color>
     <dimen name="horizontal_page_margin">@dimen/margin_medium</dimen>
     <dimen name="margin_huge">64dp</dimen>
