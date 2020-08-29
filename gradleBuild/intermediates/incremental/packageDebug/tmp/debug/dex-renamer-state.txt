@@ -1,4 +1,4 @@
-#Tue Aug 18 23:18:24 ICT 2020
+#Sat Aug 29 18:13:28 ICT 2020
 base.0=D\:\\XuLyTiengNoi_Project\\XLTN_Android_Project\\gradleBuild\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
 path.1=classes.dex
 renamed.1=classes2.dex

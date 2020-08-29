@@ -10,7 +10,7 @@
         android:id="@+id/buttonConnect"
         android:layout_width="120dp"
         android:layout_height="80dp"
-        android:background="#ECC818"
+        android:background="#CCFAE205"
         android:text="Connect"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.501"
@@ -23,7 +23,7 @@
         android:id="@+id/buttonVoice"
         android:layout_width="120dp"
         android:layout_height="80dp"
-        android:background="#ECC818"
+        android:background="#CCFAE205"
         android:text="Voice"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.951"
@@ -36,7 +36,7 @@
         android:id="@+id/buttonScan"
         android:layout_width="120dp"
         android:layout_height="80dp"
-        android:background="#ECC818"
+        android:background="#CCFAE205"
         android:text="Start Scanning"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.048"
@@ -110,14 +110,14 @@
 
         <ListView
             android:id="@+id/listViewDevives"
-            android:layout_width="382dp"
-            android:layout_height="471dp"
+            android:layout_width="366dp"
+            android:layout_height="458dp"
             app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintHorizontal_bias="0.4"
+            app:layout_constraintHorizontal_bias="0.52"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.5" />
+            app:layout_constraintVertical_bias="0.448" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 
 

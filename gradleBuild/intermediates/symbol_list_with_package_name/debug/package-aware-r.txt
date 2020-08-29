@@ -419,6 +419,9 @@ color button_material_dark
 color button_material_light
 color button_push
 color button_release
+color colorAccent
+color colorPrimary
+color colorPrimaryDark
 color common_action_bar_splitter
 color common_signin_btn_dark_text_default
 color common_signin_btn_dark_text_disabled
@@ -432,6 +435,7 @@ color common_signin_btn_light_text_pressed
 color common_signin_btn_text_dark
 color common_signin_btn_text_light
 color control_background
+color default_color
 color dim_foreground_disabled_material_dark
 color dim_foreground_disabled_material_light
 color dim_foreground_material_dark
@@ -442,6 +446,8 @@ color foreground_material_dark
 color foreground_material_light
 color highlighted_text_material_dark
 color highlighted_text_material_light
+color led_off
+color led_on
 color material_blue_grey_800
 color material_blue_grey_900
 color material_blue_grey_950
@@ -454,9 +460,13 @@ color material_grey_600
 color material_grey_800
 color material_grey_850
 color material_grey_900
+color motor_stop
+color motor_turnLeft
+color motor_turnRight
 color notification_action_color_filter
 color notification_icon_bg_color
 color notification_material_background_media_default_color
+color pressed_color
 color primary_dark_material_dark
 color primary_dark_material_light
 color primary_material_dark
@@ -693,6 +703,7 @@ drawable abc_textfield_search_activated_mtrl_alpha
 drawable abc_textfield_search_default_mtrl_alpha
 drawable abc_textfield_search_material
 drawable abc_vector_test
+drawable bg_key
 drawable border
 drawable btn_checkbox_checked_mtrl
 drawable btn_checkbox_checked_to_unchecked_mtrl_animation
@@ -914,6 +925,9 @@ id text2
 id textSpacerNoButtons
 id textSpacerNoTitle
 id textView
+id textViewMacAdd
+id textViewName
+id textViewRSSI
 id time
 id title
 id titleDividerNoCustom
@@ -970,6 +984,7 @@ layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_speech
 layout custom_dialog
+layout devices_scaned
 layout list_text_item
 layout notification_action
 layout notification_action_tombstone

@@ -4,12 +4,12 @@
         "source": "D:\\XuLyTiengNoi_Project\\XLTN_Android_Project\\res\\drawable\\layout_border.xml"
     },
     {
-        "merged": "D:\\XuLyTiengNoi_Project\\XLTN_Android_Project\\gradleBuild\\intermediates\\res\\merged\\debug\\animator_color_animation.xml.flat",
-        "source": "D:\\XuLyTiengNoi_Project\\XLTN_Android_Project\\res\\animator\\color_animation.xml"
-    },
-    {
         "merged": "D:\\XuLyTiengNoi_Project\\XLTN_Android_Project\\gradleBuild\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_action_info.png.flat",
         "source": "D:\\XuLyTiengNoi_Project\\XLTN_Android_Project\\res\\drawable-xxhdpi\\ic_action_info.png"
+    },
+    {
+        "merged": "D:\\XuLyTiengNoi_Project\\XLTN_Android_Project\\gradleBuild\\intermediates\\res\\merged\\debug\\animator_color_animation.xml.flat",
+        "source": "D:\\XuLyTiengNoi_Project\\XLTN_Android_Project\\res\\animator\\color_animation.xml"
     },
     {
         "merged": "D:\\XuLyTiengNoi_Project\\XLTN_Android_Project\\gradleBuild\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_action_info.png.flat",
@@ -42,6 +42,14 @@
     {
         "merged": "D:\\XuLyTiengNoi_Project\\XLTN_Android_Project\\gradleBuild\\intermediates\\res\\merged\\debug\\layout_activity_speech.xml.flat",
         "source": "D:\\XuLyTiengNoi_Project\\XLTN_Android_Project\\res\\layout\\activity_speech.xml"
+    },
+    {
+        "merged": "D:\\XuLyTiengNoi_Project\\XLTN_Android_Project\\gradleBuild\\intermediates\\res\\merged\\debug\\layout_devices_scaned.xml.flat",
+        "source": "D:\\XuLyTiengNoi_Project\\XLTN_Android_Project\\res\\layout\\devices_scaned.xml"
+    },
+    {
+        "merged": "D:\\XuLyTiengNoi_Project\\XLTN_Android_Project\\gradleBuild\\intermediates\\res\\merged\\debug\\drawable_bg_key.xml.flat",
+        "source": "D:\\XuLyTiengNoi_Project\\XLTN_Android_Project\\res\\drawable\\bg_key.xml"
     },
     {
         "merged": "D:\\XuLyTiengNoi_Project\\XLTN_Android_Project\\gradleBuild\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_launcher.png.flat",

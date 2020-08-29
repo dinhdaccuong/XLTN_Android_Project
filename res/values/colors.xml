@@ -15,7 +15,17 @@
  limitations under the License.
 -->
 <resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="pressed_color">#4d90fe</color>
+    <color name="default_color">#ffffff</color>
     <color name="control_background">#cc4285f4</color>
     <color name="button_push">#CC0DFA05</color>
     <color name="button_release">#CCFAE205</color>
+    <color name="motor_stop">#F7049562</color>
+    <color name="motor_turnLeft">#CCFAE205</color>
+    <color name="motor_turnRight">#CC0DFA05</color>
+    <color name="led_off">#F7049562</color>
+    <color name="led_on">#CC0DFA05</color>
 </resources>

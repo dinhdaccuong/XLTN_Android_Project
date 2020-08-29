@@ -1,7 +1,7 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\XuLyTiengNoi_Project\XLTN_Android_Project\AndroidManifest.xml:18:1-42:12
-INJECTED from D:\XuLyTiengNoi_Project\XLTN_Android_Project\AndroidManifest.xml:18:1-42:12
+ADDED from D:\XuLyTiengNoi_Project\XLTN_Android_Project\AndroidManifest.xml:18:1-47:12
+INJECTED from D:\XuLyTiengNoi_Project\XLTN_Android_Project\AndroidManifest.xml:18:1-47:12
 MERGED from [androidx.appcompat:appcompat:1.2.0] C:\Users\Cuong\.gradle\caches\transforms-2\files-2.1\81ac57c2415c44f5abd72e5e1551d108\appcompat-1.2.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\Cuong\.gradle\caches\transforms-2\files-2.1\44f2a09e666ad4d859215dba9fa4e9a1\constraintlayout-1.1.3\AndroidManifest.xml:2:1-11:12
 MERGED from [com.google.android.gms:play-services-appindexing:8.1.0] C:\Users\Cuong\.gradle\caches\transforms-2\files-2.1\10f77584259d946da56aab49fea74d28\play-services-appindexing-8.1.0\AndroidManifest.xml:16:1-20:12
@@ -37,7 +37,7 @@ MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\Cuong\.gradle\cache
 MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Cuong\.gradle\caches\transforms-2\files-2.1\a7a62aa9f15bc57009c37ad56800098d\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Cuong\.gradle\caches\transforms-2\files-2.1\d9d22c1b1419c5c95298103297c0b236\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] C:\Users\Cuong\.gradle\caches\transforms-2\files-2.1\bfec59e4a02529f15f4a7cea7d369c61\print-1.0.0\AndroidManifest.xml:17:1-22:12
-INJECTED from D:\XuLyTiengNoi_Project\XLTN_Android_Project\AndroidManifest.xml:18:1-42:12
+INJECTED from D:\XuLyTiengNoi_Project\XLTN_Android_Project\AndroidManifest.xml:18:1-47:12
 	package
 		ADDED from D:\XuLyTiengNoi_Project\XLTN_Android_Project\AndroidManifest.xml:20:5-34
 		INJECTED from D:\XuLyTiengNoi_Project\XLTN_Android_Project\AndroidManifest.xml
@@ -46,16 +46,42 @@ INJECTED from D:\XuLyTiengNoi_Project\XLTN_Android_Project\AndroidManifest.xml:1
 		ADDED from D:\XuLyTiengNoi_Project\XLTN_Android_Project\AndroidManifest.xml:19:5-51
 	xmlns:android
 		ADDED from D:\XuLyTiengNoi_Project\XLTN_Android_Project\AndroidManifest.xml:18:11-69
+uses-permission#android.permission.BLUETOOTH
+ADDED from D:\XuLyTiengNoi_Project\XLTN_Android_Project\AndroidManifest.xml:21:5-68
+	android:name
+		ADDED from D:\XuLyTiengNoi_Project\XLTN_Android_Project\AndroidManifest.xml:21:22-65
+uses-permission#android.permission.BLUETOOTH_ADMIN
+ADDED from D:\XuLyTiengNoi_Project\XLTN_Android_Project\AndroidManifest.xml:22:5-74
+	android:name
+		ADDED from D:\XuLyTiengNoi_Project\XLTN_Android_Project\AndroidManifest.xml:22:22-71
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from D:\XuLyTiengNoi_Project\XLTN_Android_Project\AndroidManifest.xml:23:5-80
+	android:name
+		ADDED from D:\XuLyTiengNoi_Project\XLTN_Android_Project\AndroidManifest.xml:23:22-78
+uses-feature#android.hardware.bluetooth_le
+ADDED from D:\XuLyTiengNoi_Project\XLTN_Android_Project\AndroidManifest.xml:24:5-91
+	android:required
+		ADDED from D:\XuLyTiengNoi_Project\XLTN_Android_Project\AndroidManifest.xml:24:65-88
+	android:name
+		ADDED from D:\XuLyTiengNoi_Project\XLTN_Android_Project\AndroidManifest.xml:24:19-63
+uses-permission#android.permission.ACCESS_BACKGROUND_LOCATION
+ADDED from D:\XuLyTiengNoi_Project\XLTN_Android_Project\AndroidManifest.xml:25:5-85
+	android:name
+		ADDED from D:\XuLyTiengNoi_Project\XLTN_Android_Project\AndroidManifest.xml:25:22-82
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from D:\XuLyTiengNoi_Project\XLTN_Android_Project\AndroidManifest.xml:26:5-78
+	android:name
+		ADDED from D:\XuLyTiengNoi_Project\XLTN_Android_Project\AndroidManifest.xml:26:22-76
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from D:\XuLyTiengNoi_Project\XLTN_Android_Project\AndroidManifest.xml:22:5-80
+ADDED from D:\XuLyTiengNoi_Project\XLTN_Android_Project\AndroidManifest.xml:27:5-80
 	android:name
-		ADDED from D:\XuLyTiengNoi_Project\XLTN_Android_Project\AndroidManifest.xml:22:22-78
+		ADDED from D:\XuLyTiengNoi_Project\XLTN_Android_Project\AndroidManifest.xml:27:22-78
 uses-permission#android.permission.RECORD_AUDIO
-ADDED from D:\XuLyTiengNoi_Project\XLTN_Android_Project\AndroidManifest.xml:23:5-71
+ADDED from D:\XuLyTiengNoi_Project\XLTN_Android_Project\AndroidManifest.xml:28:5-71
 	android:name
-		ADDED from D:\XuLyTiengNoi_Project\XLTN_Android_Project\AndroidManifest.xml:23:22-68
+		ADDED from D:\XuLyTiengNoi_Project\XLTN_Android_Project\AndroidManifest.xml:28:22-68
 application
-ADDED from D:\XuLyTiengNoi_Project\XLTN_Android_Project\AndroidManifest.xml:25:5-40:19
+ADDED from D:\XuLyTiengNoi_Project\XLTN_Android_Project\AndroidManifest.xml:30:5-45:19
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\Cuong\.gradle\caches\transforms-2\files-2.1\44f2a09e666ad4d859215dba9fa4e9a1\constraintlayout-1.1.3\AndroidManifest.xml:9:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\Cuong\.gradle\caches\transforms-2\files-2.1\44f2a09e666ad4d859215dba9fa4e9a1\constraintlayout-1.1.3\AndroidManifest.xml:9:5-20
 MERGED from [com.google.android.gms:play-services-appindexing:8.1.0] C:\Users\Cuong\.gradle\caches\transforms-2\files-2.1\10f77584259d946da56aab49fea74d28\play-services-appindexing-8.1.0\AndroidManifest.xml:19:5-20
@@ -71,37 +97,37 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Cu
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.3.0] C:\Users\Cuong\.gradle\caches\transforms-2\files-2.1\7148494e70781659d27ae96c93e3ec4c\core-1.3.0\AndroidManifest.xml:24:18-86
 	android:label
-		ADDED from D:\XuLyTiengNoi_Project\XLTN_Android_Project\AndroidManifest.xml:26:9-41
+		ADDED from D:\XuLyTiengNoi_Project\XLTN_Android_Project\AndroidManifest.xml:31:9-41
 	android:icon
-		ADDED from D:\XuLyTiengNoi_Project\XLTN_Android_Project\AndroidManifest.xml:27:9-45
+		ADDED from D:\XuLyTiengNoi_Project\XLTN_Android_Project\AndroidManifest.xml:32:9-45
 	android:allowBackup
-		ADDED from D:\XuLyTiengNoi_Project\XLTN_Android_Project\AndroidManifest.xml:25:18-44
+		ADDED from D:\XuLyTiengNoi_Project\XLTN_Android_Project\AndroidManifest.xml:30:18-44
 	android:banner
-		ADDED from D:\XuLyTiengNoi_Project\XLTN_Android_Project\AndroidManifest.xml:29:9-47
+		ADDED from D:\XuLyTiengNoi_Project\XLTN_Android_Project\AndroidManifest.xml:34:9-47
 	android:theme
-		ADDED from D:\XuLyTiengNoi_Project\XLTN_Android_Project\AndroidManifest.xml:28:9-45
+		ADDED from D:\XuLyTiengNoi_Project\XLTN_Android_Project\AndroidManifest.xml:33:9-45
 activity#org.tensorflow.demo.SpeechActivity
-ADDED from D:\XuLyTiengNoi_Project\XLTN_Android_Project\AndroidManifest.xml:31:9-39:20
+ADDED from D:\XuLyTiengNoi_Project\XLTN_Android_Project\AndroidManifest.xml:36:9-44:20
 	android:screenOrientation
-		ADDED from D:\XuLyTiengNoi_Project\XLTN_Android_Project\AndroidManifest.xml:32:13-49
+		ADDED from D:\XuLyTiengNoi_Project\XLTN_Android_Project\AndroidManifest.xml:37:13-49
 	android:label
-		ADDED from D:\XuLyTiengNoi_Project\XLTN_Android_Project\AndroidManifest.xml:33:13-57
+		ADDED from D:\XuLyTiengNoi_Project\XLTN_Android_Project\AndroidManifest.xml:38:13-57
 	android:name
-		ADDED from D:\XuLyTiengNoi_Project\XLTN_Android_Project\AndroidManifest.xml:31:19-68
+		ADDED from D:\XuLyTiengNoi_Project\XLTN_Android_Project\AndroidManifest.xml:36:19-68
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER+category:name:android.intent.category.LEANBACK_LAUNCHER
-ADDED from D:\XuLyTiengNoi_Project\XLTN_Android_Project\AndroidManifest.xml:34:13-38:29
+ADDED from D:\XuLyTiengNoi_Project\XLTN_Android_Project\AndroidManifest.xml:39:13-43:29
 action#android.intent.action.MAIN
-ADDED from D:\XuLyTiengNoi_Project\XLTN_Android_Project\AndroidManifest.xml:35:17-69
+ADDED from D:\XuLyTiengNoi_Project\XLTN_Android_Project\AndroidManifest.xml:40:17-69
 	android:name
-		ADDED from D:\XuLyTiengNoi_Project\XLTN_Android_Project\AndroidManifest.xml:35:25-66
+		ADDED from D:\XuLyTiengNoi_Project\XLTN_Android_Project\AndroidManifest.xml:40:25-66
 category#android.intent.category.LAUNCHER
-ADDED from D:\XuLyTiengNoi_Project\XLTN_Android_Project\AndroidManifest.xml:36:17-77
+ADDED from D:\XuLyTiengNoi_Project\XLTN_Android_Project\AndroidManifest.xml:41:17-77
 	android:name
-		ADDED from D:\XuLyTiengNoi_Project\XLTN_Android_Project\AndroidManifest.xml:36:27-74
+		ADDED from D:\XuLyTiengNoi_Project\XLTN_Android_Project\AndroidManifest.xml:41:27-74
 category#android.intent.category.LEANBACK_LAUNCHER
-ADDED from D:\XuLyTiengNoi_Project\XLTN_Android_Project\AndroidManifest.xml:37:17-86
+ADDED from D:\XuLyTiengNoi_Project\XLTN_Android_Project\AndroidManifest.xml:42:17-86
 	android:name
-		ADDED from D:\XuLyTiengNoi_Project\XLTN_Android_Project\AndroidManifest.xml:37:27-83
+		ADDED from D:\XuLyTiengNoi_Project\XLTN_Android_Project\AndroidManifest.xml:42:27-83
 uses-sdk
 INJECTED from D:\XuLyTiengNoi_Project\XLTN_Android_Project\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from D:\XuLyTiengNoi_Project\XLTN_Android_Project\AndroidManifest.xml
@@ -185,9 +211,9 @@ INJECTED from D:\XuLyTiengNoi_Project\XLTN_Android_Project\AndroidManifest.xml
 		ADDED from D:\XuLyTiengNoi_Project\XLTN_Android_Project\AndroidManifest.xml
 		INJECTED from D:\XuLyTiengNoi_Project\XLTN_Android_Project\AndroidManifest.xml
 uses-permission#android.permission.READ_PHONE_STATE
-IMPLIED from D:\XuLyTiengNoi_Project\XLTN_Android_Project\AndroidManifest.xml:18:1-42:12 reason: tensorflow.contrib.android has a targetSdkVersion < 4
+IMPLIED from D:\XuLyTiengNoi_Project\XLTN_Android_Project\AndroidManifest.xml:18:1-47:12 reason: tensorflow.contrib.android has a targetSdkVersion < 4
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-IMPLIED from D:\XuLyTiengNoi_Project\XLTN_Android_Project\AndroidManifest.xml:18:1-42:12 reason: tensorflow.contrib.android requested WRITE_EXTERNAL_STORAGE
+IMPLIED from D:\XuLyTiengNoi_Project\XLTN_Android_Project\AndroidManifest.xml:18:1-47:12 reason: tensorflow.contrib.android requested WRITE_EXTERNAL_STORAGE
 meta-data#com.google.android.gms.version
 ADDED from [com.google.android.gms:play-services-basement:8.1.0] C:\Users\Cuong\.gradle\caches\transforms-2\files-2.1\9af6ca402664d6a11657b8778ac9615b\jetified-play-services-basement-8.1.0\AndroidManifest.xml:21:9-23:69
 	android:value
